@@ -1,0 +1,5 @@
+{
+  "name": "محضّر الكميات المجمعة",
+  "description": "أداة ويب لحساب قائمة السحب المثالية من كميات متاحة في المستودع. A web tool to calculate the optimal pick list from available warehouse quantities.",
+  "requestFramePermissions": []
+}
