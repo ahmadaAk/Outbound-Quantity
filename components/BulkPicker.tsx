@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { useLanguage } from '../App.tsx';
+import { useLanguage } from '../contexts/LanguageContext.tsx';
 import { CalculatorIcon, TrashIcon, ClipboardCopyIcon, CheckCircleIcon, ArrowRightIcon, ArrowLeftIcon } from './icons.tsx';
 
 const BulkPicker: React.FC = () => {

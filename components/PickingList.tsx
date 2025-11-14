@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { PickingItem } from '../types';
-import { ArrowRightIcon, PrinterIcon } from './icons';
+import type { PickingItem } from '../types.ts';
+import { ArrowRightIcon, PrinterIcon } from './icons.tsx';
 
 interface PickingListProps {
   pickingList: PickingItem[];

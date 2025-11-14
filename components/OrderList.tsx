@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Order } from '../types';
-import { CubeIcon, LocationMarkerIcon } from './icons';
+import type { Order } from '../types.ts';
+import { CubeIcon, LocationMarkerIcon } from './icons.tsx';
 
 interface OrderListProps {
   orders: Order[];
