@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext, useEffect, ReactNode } from 'react';
-import BulkPicker from './components/BulkPicker';
-import { CalculatorIcon, LanguageIcon } from './components/icons';
+import BulkPicker from './components/BulkPicker.tsx';
+import { CalculatorIcon, LanguageIcon } from './components/icons.tsx';
 
 const translations = {
   ar: {

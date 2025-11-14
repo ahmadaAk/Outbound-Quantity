@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { useLanguage } from '../App';
-import { CalculatorIcon, TrashIcon, ClipboardCopyIcon, CheckCircleIcon, ArrowRightIcon, ArrowLeftIcon } from './icons';
+import { useLanguage } from '../App.tsx';
+import { CalculatorIcon, TrashIcon, ClipboardCopyIcon, CheckCircleIcon, ArrowRightIcon, ArrowLeftIcon } from './icons.tsx';
 
 const BulkPicker: React.FC = () => {
     const [available, setAvailable] = useState('');
